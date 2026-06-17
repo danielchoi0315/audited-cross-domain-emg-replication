@@ -1,0 +1,14 @@
+{
+  "stage": "journal_confirmatory_manuscript_ready_collect",
+  "created_at": "2026-05-12T11:02:13.879395-06:00",
+  "root": "withheld_review_package",
+  "output": "withheld_review_package",
+  "counts": {
+    "domain_summary_runs": 5,
+    "domain_metrics_runs": 5,
+    "domain_confusion_runs": 5,
+    "downstream_summary_runs": 5,
+    "downstream_diffs_runs": 5,
+    "downstream_table_runs": 5
+  }
+}

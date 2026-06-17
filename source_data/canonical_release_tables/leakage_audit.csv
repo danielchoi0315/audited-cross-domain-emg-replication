@@ -1,0 +1,13 @@
+section,dataset,metric,value,threshold,pass,notes
+split_integrity,harmonic,max_subject_overlap_train_test,0.0,0.0,True,subject-wise split check
+permutation,harmonic,perm_acc_ssl_probe,0.7340420560747664,0.79375,True,"chance_uniform=0.333333, chance_majority=0.713750"
+feature_sentinel,harmonic,forbidden_feature_tokens_found,0.0,0.0,True,probe_features=e* and baseline=b*
+split_integrity,ninapro_db10_meganepro,max_subject_overlap_train_test,0.0,0.0,True,subject-wise split check
+permutation,ninapro_db10_meganepro,perm_acc_ssl_probe,0.036250000000000004,0.17125,True,"chance_uniform=0.055556, chance_majority=0.091250"
+feature_sentinel,ninapro_db10_meganepro,forbidden_feature_tokens_found,0.0,0.0,True,probe_features=e* and baseline=b*
+split_integrity,physionet_grabmyo,max_subject_overlap_train_test,0.0,0.0,True,subject-wise split check
+permutation,physionet_grabmyo,perm_acc_ssl_probe,0.0722750642673522,0.15875,True,"chance_uniform=0.058824, chance_majority=0.078750"
+feature_sentinel,physionet_grabmyo,forbidden_feature_tokens_found,0.0,0.0,True,probe_features=e* and baseline=b*
+split_integrity,physionet_hyser,max_subject_overlap_train_test,0.0,0.0,True,subject-wise split check
+permutation,physionet_hyser,perm_acc_ssl_probe,0.02505653266331658,0.1225,True,"chance_uniform=0.029412, chance_majority=0.042500"
+feature_sentinel,physionet_hyser,forbidden_feature_tokens_found,0.0,0.0,True,probe_features=e* and baseline=b*

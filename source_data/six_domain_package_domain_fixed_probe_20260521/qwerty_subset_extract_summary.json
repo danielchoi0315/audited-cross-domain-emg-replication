@@ -1,0 +1,455 @@
+{
+  "stage": "bounded_emg2qwerty_hdf5_subset_extract",
+  "archive_size_bytes": 308382645571,
+  "target_files": 160,
+  "target_subjects": 20,
+  "max_files": 260,
+  "n_selected_files": 86,
+  "n_subjects": 10,
+  "subjects": [
+    "09456349",
+    "11944098",
+    "45200932",
+    "60557560",
+    "61792419",
+    "70495563",
+    "71409769",
+    "72389321",
+    "80745050",
+    "81695116"
+  ],
+  "selected_total_bytes": 22867776448,
+  "note": "Bounded local extraction used only to build a limited emg2qwerty package/source diagnostic subset; raw HDF5 files are not redistributed.",
+  "selected_members": [
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-13-1597357485-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 274730952
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-13-1597363426-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 280222744
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-13-1597369024-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 248158800
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-14-1597444340-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 280448336
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-15-1597560433-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 254351104
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-17-1597699312-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 160813184
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-17-1597700134-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 178233936
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-17-1597701568-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 155737416
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-17-1597712595-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 323271200
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-17-1597730688-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 307538320
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597766237-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 296640864
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597767815-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 282620296
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597770803-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 271420656
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597772221-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 281142824
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597772298-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 304274896
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597773750-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 302234904
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597775258-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 269194440
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597785842-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 161293928
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597786375-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 274068504
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597786596-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 165332208
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597787379-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 166747632
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597788565-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 255741648
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597789985-keystrokes-11944098.hdf5",
+      "subject_id": "11944098",
+      "size": 314358224
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-18-1597805065-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 323339624
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597842881-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 371130416
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597844765-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 232659376
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597845008-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 355462144
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597849380-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 243785224
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597850870-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 275342240
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597852672-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 355296352
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597861817-keystrokes-80745050.hdf5",
+      "subject_id": "80745050",
+      "size": 202839856
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597863691-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 324220792
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597863839-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 290426928
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597865170-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 220709992
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597865878-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 339536944
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597866381-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 225184840
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597868334-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 269351568
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597869769-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 253792624
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597870936-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 210985832
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597874325-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 369924328
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597875875-keystrokes-09456349.hdf5",
+      "subject_id": "09456349",
+      "size": 171601656
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597888546-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 301839688
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597890158-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 288227584
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-19-1597891384-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 297074456
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597930211-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 364731472
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597931886-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 249764816
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597932977-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 232935464
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597933955-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 254700272
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597936399-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 201433192
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597937556-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 294005016
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597938979-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 285896584
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597940034-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 209575176
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597940461-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 296819744
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597949725-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 280719976
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597950880-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 271644256
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597953285-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 281585520
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597954522-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 289326464
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597954965-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 214382328
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597955772-keystrokes-72389321.hdf5",
+      "subject_id": "72389321",
+      "size": 290257112
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597956396-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 223787616
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597957074-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 240979392
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597960126-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 202456744
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597962037-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 262313456
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597963893-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 232073144
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597966014-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 195989936
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597966137-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 230062576
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597967205-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 214615264
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597967593-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 243882944
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597968506-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 219753344
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597969358-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 284000104
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597970441-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 231225464
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597971779-keystrokes-61792419.hdf5",
+      "subject_id": "61792419",
+      "size": 231937816
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597973325-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 210631752
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597973846-keystrokes-60557560.hdf5",
+      "subject_id": "60557560",
+      "size": 340654712
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597974992-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 220384624
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-20-1597975826-keystrokes-81695116.hdf5",
+      "subject_id": "81695116",
+      "size": 245050008
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-21-1598026612-keystrokes-45200932.hdf5",
+      "subject_id": "45200932",
+      "size": 213109576
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-21-1598031035-keystrokes-80745050.hdf5",
+      "subject_id": "80745050",
+      "size": 211809104
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-21-1598031256-keystrokes-70495563.hdf5",
+      "subject_id": "70495563",
+      "size": 248843144
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-25-1598360760-keystrokes-80745050.hdf5",
+      "subject_id": "80745050",
+      "size": 235769088
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-25-1598362722-keystrokes-80745050.hdf5",
+      "subject_id": "80745050",
+      "size": 210582288
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-25-1598383750-keystrokes-80745050.hdf5",
+      "subject_id": "80745050",
+      "size": 208623344
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-08-26-1598441577-keystrokes-80745050.hdf5",
+      "subject_id": "80745050",
+      "size": 212402752
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-09-03-1599179467-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 606974752
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-09-04-1599261941-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 522628968
+    },
+    {
+      "member": "emg2qwerty-data-2021-08/2020-09-08-1599610329-keystrokes-71409769.hdf5",
+      "subject_id": "71409769",
+      "size": 418147664
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+check,value,pass,threshold,notes
+probe_uses_embeddings,1.0,True,1.0,feature leakage sentinel
+leakage_fail_reasons,0.0,True,0.0,split/permutation/recompute consistency
+domain_acc_near_chance,0.1432291666666666,False,0.05,|dataset_id_acc_end - chance| <= target_window
+offdiag_retrieval_not_degraded,1.046,True,0.95,audited/baseline offdiag retrieval top1 factor
+offdiag_wcka_not_degraded,0.9878839033801111,True,0.95,audited/baseline offdiag whitened CKA factor

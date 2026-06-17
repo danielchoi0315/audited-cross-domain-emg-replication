@@ -1,0 +1,5 @@
+dataset,n_embedding_features,n_baseline_features,forbidden_feature_tokens_found,max_mutual_info_embedding_label,max_abs_corr_embedding_label,extreme_flag
+harmonic,256,8,0,0.7721030897105478,0.999999084951541,True
+ninapro_db10_meganepro,256,24,0,0.1254695078076158,0.1543581019588133,False
+physionet_grabmyo,256,17,0,2.833339453337019,0.7395103263914207,True
+physionet_hyser,256,34,0,3.5343502712422863,0.45738416995873027,True

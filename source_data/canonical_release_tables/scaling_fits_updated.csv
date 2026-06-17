@@ -1,0 +1,3 @@
+relation,x_col,alpha,intercept,n_points
+error_vs_tokens,tokens_seen_proxy,0.27916023069096124,-2.9461448458588047,20
+error_vs_params,n_parameters,0.2822027902047076,-4.914995619041672,20

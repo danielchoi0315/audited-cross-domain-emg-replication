@@ -1,0 +1,7 @@
+dataset,n_rows_available,n_subject_id,n_session_id,n_trial_id,n_file_path,n_relative_path,primary_split_unit,split_strength,trial_id_synthetic
+emg2pose,5000,1,1,30,30,30,trial_id,trial_or_file_level_fallback,False
+emg2qwerty,5000,10,86,86,86,86,subject_id,subject_level,False
+harmonic,5000,24,1,20,0,0,subject_id,subject_level,False
+ninapro_db10_meganepro,5000,20,1,55,0,0,subject_id,subject_level,False
+physionet_grabmyo,5000,43,3,357,0,0,subject_id,subject_level,False
+physionet_hyser,5000,20,2,539,0,0,subject_id,subject_level,False

@@ -1,0 +1,58 @@
+{
+  "package_name": "TNSRE_Audit_Gated_EMG_TNSRE_FinalAligned_20260616_ReviewReady",
+  "title": "Auditing Cross-Dataset Claims in Wearable EMG Representation Learning: A Public-Data Case Study",
+  "target": "Anonymized peer-review source package with compiled PDFs, source-data summaries, vector figures, checksums, and manifests.",
+  "revision_date": "2026-06-16",
+  "author_status": "withheld_for_review",
+  "archive_boundary": "This review source package contains manuscript-ready tables/figures and does not redistribute raw third-party EMG data, model checkpoints, embedding caches, raw-window feature parquet files, prediction caches, local launcher logs, machine-local paths, public repository identifiers, or public archive identifiers.",
+  "excluded_from_package": [
+    "author-facing cover letter",
+    "raw third-party datasets",
+    "model checkpoints and embedding caches",
+    "prediction parquet files",
+    "local launcher logs and helper-only machine artifacts",
+    "LaTeX build logs and auxiliary files",
+    "public repository and archive identifiers"
+  ],
+  "contents": {
+    "figures": "figures_compiled/",
+    "figure_build_scripts": [
+      "scripts/build_submission_figures.R"
+    ],
+    "manuscript": [
+      "main.tex",
+      "main.pdf",
+      "refs.bib"
+    ],
+    "reproducibility": [
+      "README.md",
+      "REPRODUCIBILITY_LEDGER.md",
+      "release_manifest.json",
+      "PACKAGE_FILE_MANIFEST.json",
+      "SHA256SUMS.txt"
+    ],
+    "source_data": "source_data/",
+    "supplement": [
+      "supplement.tex",
+      "supplement.pdf"
+    ]
+  },
+  "compiled_outputs": {
+    "main_pdf": "main.pdf",
+    "supplement_pdf": "supplement.pdf",
+    "compile_required_before_review": false,
+    "status": "Compiled PDFs regenerated from the anonymized review sources with R/ggplot2/ggprism vector figures; page counts, logs, font embedding, and checksum coverage verified before packaging."
+  },
+  "claim_boundaries": {
+    "overall_framing": "Reproducible claim-control and audit framework for cross-dataset EMG representation learning; not a deployable controller, domain-invariant physiology claim, reduced-recalibration claim, prosthetic-control transfer claim, or clinical-readiness claim.",
+    "alignment": "Small unwhitened alignment signal only; whitened CKA decreased and auxiliary endpoints were mixed.",
+    "domain_recoverability": "Post-freeze fixed probes test package/source identity recoverability, not physiological domain identity or calibrated domain invariance.",
+    "ontology_gate": "Hyser-GRABMyo supervised transfer is not evaluable under the frozen-package ontology gate because provider-backed one-to-one control-intent semantics are absent from the frozen package.",
+    "downstream": "Downstream screens did not establish pretrained-feature superiority over raw or classical signal-feature baselines."
+  },
+  "verification_files": {
+    "package_manifest": "PACKAGE_FILE_MANIFEST.json",
+    "checksum_ledger": "SHA256SUMS.txt",
+    "verify_internal_checksums": "sha256sum -c SHA256SUMS.txt on POSIX systems, or an equivalent SHA256 verifier on Windows."
+  }
+}

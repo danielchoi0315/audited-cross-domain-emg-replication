@@ -1,0 +1,17 @@
+dataset,protocol,calibration_per_class,model,n_trials,n_units,balanced_acc_mean,macro_f1_mean,acc_mean,n_train_mean,n_test_mean
+physionet_grabmyo,heldout_subject_fewshot,1,raw_stats_plus_pretrained_plus_signal,430,43,0.4310259079088379,0.4241591652124856,0.4304242202818885,697.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,1,raw_stats_plus_signal,430,43,0.38720934782094973,0.38195997576078317,0.386298518386284,697.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,2,raw_stats_plus_pretrained_plus_signal,430,43,0.45404075853936104,0.44837096302414464,0.45340532774482156,714.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,2,raw_stats_plus_signal,430,43,0.4069682468446443,0.4028681780866576,0.40617382267239405,714.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,5,raw_stats_plus_pretrained_plus_signal,430,43,0.49846158564731213,0.49475154946819216,0.49792223968786803,765.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,5,raw_stats_plus_signal,430,43,0.44139952368601215,0.4392671341633545,0.44066803668954674,765.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,10,raw_stats_plus_pretrained_plus_signal,430,43,0.5346520281044069,0.5323797822245027,0.5340969725480864,850.0,398.09767441860464
+physionet_grabmyo,heldout_subject_fewshot,10,raw_stats_plus_signal,430,43,0.46163994236081274,0.46132922442239577,0.4610033054021009,850.0,398.09767441860464
+physionet_hyser,heldout_subject_fewshot,1,raw_stats_plus_pretrained_plus_signal,200,20,0.10798351553896618,0.1039078089830762,0.10714777654711219,1391.95,884.94
+physionet_hyser,heldout_subject_fewshot,1,raw_stats_plus_signal,200,20,0.12743715875376457,0.12168492534956736,0.126237196696247,1391.95,884.94
+physionet_hyser,heldout_subject_fewshot,2,raw_stats_plus_pretrained_plus_signal,200,20,0.12206278341839213,0.11815872955319963,0.12094411937011021,1425.9,884.94
+physionet_hyser,heldout_subject_fewshot,2,raw_stats_plus_signal,200,20,0.15008512531499035,0.14431302947704638,0.14853686422701762,1425.9,884.94
+physionet_hyser,heldout_subject_fewshot,5,raw_stats_plus_pretrained_plus_signal,200,20,0.1628102376045304,0.1586456887319707,0.16148286288190913,1527.75,884.94
+physionet_hyser,heldout_subject_fewshot,5,raw_stats_plus_signal,200,20,0.21204193077319533,0.2046396253203447,0.21002404191543889,1527.75,884.94
+physionet_hyser,heldout_subject_fewshot,10,raw_stats_plus_pretrained_plus_signal,200,20,0.22544894701806054,0.21981502037209721,0.22327060338928853,1697.5,884.94
+physionet_hyser,heldout_subject_fewshot,10,raw_stats_plus_signal,200,20,0.30485469462581566,0.294911919193098,0.3021821943436164,1697.5,884.94

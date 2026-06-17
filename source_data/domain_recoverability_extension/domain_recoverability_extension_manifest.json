@@ -1,0 +1,15 @@
+{
+  "stage": "domain_recoverability_extension_summary",
+  "inputs": {
+    "metrics": "domain_recoverability/domain_recoverability_metrics_augmented.csv",
+    "confusion": "domain_recoverability/domain_id_probe_confusion_by_seed.csv",
+    "supports": "domain_recoverability/domain_id_probe_supports_by_seed.csv"
+  },
+  "outputs": {
+    "augmented_metrics": "source_data/domain_recoverability_extension/domain_recoverability_metrics_augmented.csv",
+    "summary": "source_data/domain_recoverability_extension/domain_recoverability_extension_summary.csv",
+    "selected": "source_data/domain_recoverability_extension/domain_recoverability_extension_selected.csv",
+    "latex_table": "source_data/domain_recoverability_extension/domain_recoverability_extension_table.tex"
+  },
+  "interpretation": "This is an audit-extension summary of available prediction-level two- and three-domain fixed-encoder probes. It does not reconstruct the missing six-label adversarial readout."
+}

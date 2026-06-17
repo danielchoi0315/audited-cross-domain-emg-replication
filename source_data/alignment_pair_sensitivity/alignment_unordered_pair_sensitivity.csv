@@ -1,0 +1,19 @@
+metric,unordered_pair,n_directions,mean_delta,min_delta,max_delta,n_positive,n_negative,n_zero,sign_consistent
+offdiag_cka,harmonic -- ninapro_db10_meganepro,2,0.00415927104793315,0.0023678198136396,0.0059507222822267,2,0,0,True
+offdiag_cka,harmonic -- physionet_grabmyo,2,0.00491178180034885,-0.0018575030371473,0.011681066637845,1,1,0,False
+offdiag_cka,harmonic -- physionet_hyser,2,0.0024360855366752,0.0018413695122925,0.0030308015610579,2,0,0,True
+offdiag_cka,ninapro_db10_meganepro -- physionet_grabmyo,2,0.006627777378411101,0.0023092855558336,0.0109462692009886,2,0,0,True
+offdiag_cka,ninapro_db10_meganepro -- physionet_hyser,2,0.0022018653253960997,0.0019975297336201,0.0024062009171721,2,0,0,True
+offdiag_cka,physionet_grabmyo -- physionet_hyser,2,0.0030515625239358997,0.0027134519585085,0.0033896730893633,2,0,0,True
+offdiag_knn_top1,harmonic -- ninapro_db10_meganepro,2,-0.400390625,-0.578125,-0.22265625,0,2,0,True
+offdiag_knn_top1,harmonic -- physionet_grabmyo,2,-0.01171875,-0.078125,0.0546875,1,1,0,False
+offdiag_knn_top1,harmonic -- physionet_hyser,2,0.30078125,-0.03515625,0.63671875,1,1,0,False
+offdiag_knn_top1,ninapro_db10_meganepro -- physionet_grabmyo,2,0.107421875,0.0,0.21484375,1,0,1,False
+offdiag_knn_top1,ninapro_db10_meganepro -- physionet_hyser,2,0.00390625,-0.02734375,0.03515625,1,1,0,False
+offdiag_knn_top1,physionet_grabmyo -- physionet_hyser,2,0.08984375,0.03515625,0.14453125,2,0,0,True
+offdiag_whitened_cka,harmonic -- ninapro_db10_meganepro,2,-0.00198247580936785,-0.0029606870713076,-0.0010042645474281,0,2,0,True
+offdiag_whitened_cka,harmonic -- physionet_grabmyo,2,3.879965549367925e-09,1.5252809952570612e-10,7.607402999210144e-09,2,0,0,True
+offdiag_whitened_cka,harmonic -- physionet_hyser,2,-2.0710861350567447e-08,-1.631427596002211e-07,1.217210368990862e-07,1,1,0,False
+offdiag_whitened_cka,ninapro_db10_meganepro -- physionet_grabmyo,2,-0.0015747675029075502,-0.0029402095842378,-0.0002093254215773,0,2,0,True
+offdiag_whitened_cka,ninapro_db10_meganepro -- physionet_hyser,2,-0.0011260228728512999,-0.0015640926363597,-0.0006879531093429,0,2,0,True
+offdiag_whitened_cka,physionet_grabmyo -- physionet_hyser,2,-1.2643654005717386e-09,-5.303037890064256e-08,5.0501648099499086e-08,1,1,0,False

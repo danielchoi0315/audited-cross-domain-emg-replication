@@ -1,0 +1,3 @@
+direction,status,n_classes,classes,n_train,n_test,n_train_subjects,n_test_subjects,acc,macro_f1,nll,ece,brier,majority_acc
+hyser_to_grabmyo,fail_closed,0,,0,0,0,0,,,,,,
+grabmyo_to_hyser,fail_closed,0,,0,0,0,0,,,,,,

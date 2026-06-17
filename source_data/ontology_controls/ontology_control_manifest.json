@@ -1,0 +1,18 @@
+{
+  "scope": "ontology positive/negative controls for frozen package",
+  "positive_controls": [
+    "GRABMyo same-dataset identity",
+    "Hyser same-dataset identity"
+  ],
+  "negative_controls": [
+    "Hyser-to-GRABMyo cross-dataset supervised transfer",
+    "GRABMyo-to-Hyser cross-dataset supervised transfer"
+  ],
+  "caveat": "No independent human annotator agreement is claimed; this artifact documents rule-based fail-closed gate decisions for the frozen package.",
+  "cross_dataset_caveat": "WF/WE and all other broad semantic similarities remain excluded from cross-dataset eligibility unless provider metadata and one-to-one control-intent equivalence are explicitly documented.",
+  "artifact_sha256": {
+    "ontology_class_dictionary.csv": "78495955817e9526dd7001e86634ad1f97491649195168f50d340ec4bc8b7b74",
+    "ontology_mapping_candidates.csv": "28ef0f29dd975ef9a0806876a1b710c60fa389142581b63c11b8200434bf2c25",
+    "ontology_gate_decisions.csv": "0c669e3d74be37bc9451d26db8b03d0266d759d98e7526de808bfbc95f32c34c"
+  }
+}

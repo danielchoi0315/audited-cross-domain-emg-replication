@@ -1,0 +1,150 @@
+{
+  "stage": "six_domain_package_domain_fixed_probe_release_tables",
+  "created_for": "TNSRE manuscript source package",
+  "diagnostic_boundary": "Post-freeze fixed-embedding package/source-domain recoverability diagnostic. Not a reconstruction of the canonical adversarial head; not a full emg2qwerty or emg2pose benchmark; not online or clinical evidence. For HARMONIC, the rebuilt fixed-probe stream used the public text/probability-derived package stream rather than raw HARMONIC EMG, so recoverability values indicate package-stream recoverability rather than raw-EMG physiological separability.",
+  "probe_design": {
+    "encoder_runs": 5,
+    "probe_seeds_per_encoder": 10,
+    "classes": 6,
+    "max_rows_per_domain": 5000,
+    "classifier": "standardized one-vs-rest liblinear logistic regression",
+    "control": "training labels permuted only; test labels remain true",
+    "split_units": [
+      {
+        "dataset": "emg2pose",
+        "primary_split_unit": "trial_id",
+        "split_strength": "trial_or_file_level_fallback",
+        "n_rows_available": 30,
+        "n_subject_id": 1,
+        "n_session_id": 1,
+        "n_trial_id": 30
+      },
+      {
+        "dataset": "emg2qwerty",
+        "primary_split_unit": "subject_id",
+        "split_strength": "subject_level",
+        "n_rows_available": 86,
+        "n_subject_id": 10,
+        "n_session_id": 86,
+        "n_trial_id": 86
+      },
+      {
+        "dataset": "harmonic",
+        "primary_split_unit": "subject_id",
+        "split_strength": "subject_level",
+        "n_rows_available": 40000,
+        "n_subject_id": 24,
+        "n_session_id": 1,
+        "n_trial_id": 20
+      },
+      {
+        "dataset": "ninapro_db10_meganepro",
+        "primary_split_unit": "subject_id",
+        "split_strength": "subject_level",
+        "n_rows_available": 7638,
+        "n_subject_id": 20,
+        "n_session_id": 1,
+        "n_trial_id": 55
+      },
+      {
+        "dataset": "physionet_grabmyo",
+        "primary_split_unit": "subject_id",
+        "split_strength": "subject_level",
+        "n_rows_available": 40000,
+        "n_subject_id": 43,
+        "n_session_id": 3,
+        "n_trial_id": 357
+      },
+      {
+        "dataset": "physionet_hyser",
+        "primary_split_unit": "subject_id",
+        "split_strength": "subject_level",
+        "n_rows_available": 40000,
+        "n_subject_id": 20,
+        "n_session_id": 2,
+        "n_trial_id": 544
+      }
+    ]
+  },
+  "headline_values": {
+    "balanced_accuracy_mean": 0.9226185389489568,
+    "balanced_accuracy_encoder_sd": 0.0005560928086513,
+    "accuracy_mean": 0.9274835351967836,
+    "macro_f1_mean": 0.9208597432815764,
+    "normalized_mutual_info_mean": 0.9031095568965845,
+    "normalized_prediction_entropy_mean": 0.157718417580571,
+    "shuffled_balanced_accuracy_mean": 0.1882935116929685,
+    "shuffled_accuracy_mean": 0.1894359657151484,
+    "shuffled_normalized_mutual_info_mean": 0.1111459420834221,
+    "uniform_reference": 0.1666666666666665,
+    "majority_reference": 0.1880378986943674
+  },
+  "per_domain_recall_mean": [
+    {
+      "dataset": "emg2pose",
+      "recall_mean": 0.7763903054136578,
+      "recall_sd": 0.0531414173933116,
+      "recall_min": 0.6968503937007874,
+      "recall_max": 0.864638783269962
+    },
+    {
+      "dataset": "emg2qwerty",
+      "recall_mean": 0.7600667214637729,
+      "recall_sd": 0.0996324173508999,
+      "recall_min": 0.5115658362989324,
+      "recall_max": 0.88504753673293
+    },
+    {
+      "dataset": "harmonic",
+      "recall_mean": 1.0,
+      "recall_sd": 0.0,
+      "recall_min": 1.0,
+      "recall_max": 1.0
+    },
+    {
+      "dataset": "ninapro_db10_meganepro",
+      "recall_mean": 0.9996161036540344,
+      "recall_sd": 0.000727608457875,
+      "recall_min": 0.997588424437299,
+      "recall_max": 1.0
+    },
+    {
+      "dataset": "physionet_grabmyo",
+      "recall_mean": 0.9997187968832134,
+      "recall_sd": 0.0004942789986948,
+      "recall_min": 0.998406374501992,
+      "recall_max": 1.0
+    },
+    {
+      "dataset": "physionet_hyser",
+      "recall_mean": 0.9999193062790632,
+      "recall_sd": 0.0002445549430591,
+      "recall_min": 0.9991830065359476,
+      "recall_max": 1.0
+    }
+  ],
+  "qwerty_subset": {
+    "n_selected_files": 86,
+    "n_subjects": 10,
+    "selected_total_bytes": 22867776448,
+    "note": "Bounded local extraction used only to build a limited emg2qwerty package/source diagnostic subset; raw HDF5 files are not redistributed."
+  },
+  "script_sha256": {
+    "six_domain_domain_id_rebuild.py": "9fd7ee801a1512a2ad38767cf41c295752002ae52c115c15a5962f6e0422effd",
+    "combine_six_domain_probe_runs.py": "21c60817ea9ad2631326b7b384975d79eab369f438e1b9d3d04e620597a16611"
+  },
+  "files": {
+    "confusion_by_seed.csv": "e3697b494a86f603db070b13939a40e2c557e5b828917a357bf3ac69a6d54de6",
+    "marginals_by_seed.csv": "12415f866e0a6bf2b29f86ef3ad878cf1af98f17be6f982688671da538356d14",
+    "metrics_by_seed.csv": "8e59c31adc79288795ecc9e8cc17d1434fb52ab1ebd09444ed44ee65d061a24d",
+    "qwerty_subset_extract_summary.json": "7b0da6da9b09dbd77021dee0f3290dca6b272295664d8a997f928c085006ca20",
+    "sampled_units.csv": "9ae7e68a0e19e1f27f2ae495941da87905992090c3ab5fc380215cd0f0431cb6",
+    "source_units.csv": "3344465c88ff95ac0b93521e03efceec21a0cab6d3cd2aba244edf8e49dd3fa4",
+    "split_audit_by_seed.csv": "52428c11225e20921645cb91c9eecb939bbe2016e5280fa0530ab57439308ab4",
+    "summary_all_probe_rows.csv": "e429c0edd9280f1b0d0c9dade2b50ba0339bf2209c9c20698b77088fb7b9f823",
+    "summary_by_encoder.csv": "86c8a496bfa5c6e89f844056ab5f8430c56926ebdbaca78af6646d5233ffc111",
+    "summary_per_run.csv": "a65691a1588476fd65e88478e70662fdd9c2c495bba197fc29f0395aa6074abe",
+    "support_summary.csv": "7bb00fd74eb0dbf5731ed9fdd74f9108c6091c35c6b4c6b5f20f850901ff31a6",
+    "supports_by_seed.csv": "626eb1936346a657945b73bce4ec56e303324fd5d2fb7245941d4131af0e89f5"
+  }
+}

@@ -1,0 +1,6 @@
+comparison,metric,endpoint,calibration_per_class,n_dataset_subjects,equal_dataset_mean_delta_aulc,overall_subject_win_rate,physionet_grabmyo_delta_aulc,physionet_hyser_delta_aulc,physionet_grabmyo_win_rate,physionet_hyser_win_rate
+raw_stats_plus_frequency_minus_raw_stats,balanced_acc,normalized_log_aulc,"1,2,5,10",63,-0.02702834138589867,0.30158730158730157,-0.09253438888084083,0.03847770610904348,0.0,0.95
+frequency_logbandpower_minus_raw_stats,balanced_acc,normalized_log_aulc,"1,2,5,10",63,-0.0042537915179829446,0.3968253968253968,-0.04060548041826414,0.03209789738229825,0.13953488372093023,0.95
+raw_stats_plus_pretrained_minus_raw_stats_plus_frequency,balanced_acc,normalized_log_aulc,"1,2,5,10",63,-0.035156311455607166,0.20634920634920634,-0.08177250244925745,0.011459879538043113,0.0,0.65
+raw_stats_plus_pretrained_minus_raw_stats,balanced_acc,normalized_log_aulc,"1,2,5,10",63,-0.062184652841505844,0.30158730158730157,-0.17430689133009827,0.04993758564708659,0.0,0.95
+pretrained_encoder_minus_raw_stats,balanced_acc,normalized_log_aulc,"1,2,5,10",63,-0.15205276050228228,0.14285714285714285,-0.2987910239470846,-0.005314497057479964,0.0,0.45

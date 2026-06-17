@@ -1,0 +1,12 @@
+file,width_in,height_in,generated_with
+fig00_study_logic_overview.pdf,3.45,2.55,R ggplot2 + ggprism + patchwork
+fig01_audit_gate_ledger.pdf,7.16,2.55,R ggplot2 + ggprism + patchwork
+fig02_alignment_delta_audit.pdf,7.16,3.65,R ggplot2 + ggprism + patchwork
+fig03_domain_identifiability_audit.pdf,7.16,4.8,R ggplot2 + ggprism + patchwork
+fig04_downstream_claim_gates.pdf,7.16,4.55,R ggplot2 + ggprism + patchwork
+fig08_confirmatory_audit.pdf,7.16,3.15,R ggplot2 + ggprism + patchwork
+figS01_training_domain_mixture.pdf,7.16,2.65,R ggplot2 + ggprism + patchwork
+figS02_ontology_gate.pdf,7.16,2.75,R ggplot2 + ggprism + patchwork
+figS03_artifact_integrity_checks.pdf,7.16,3.2,R ggplot2 + ggprism + patchwork
+figS04_scaling_ablation_descriptive.pdf,7.16,3.4,R ggplot2 + ggprism + patchwork
+figS05_downstream_absolute_accuracy_curves.pdf,7.16,5.35,R ggplot2 + ggprism + patchwork

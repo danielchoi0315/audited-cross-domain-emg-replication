@@ -1,0 +1,5 @@
+endpoint_id,source_dataset,target_dataset,mapping_status,n_source_classes,n_target_classes,n_accepted_classes,accepted_codes,fail_closed_reason,allowed_endpoint,permitted_wording
+grabmyo_same_dataset_session_shift,physionet_grabmyo,physionet_grabmyo,accepted_identity,17,17,17,0..16,,yes,same-dataset task-valid screen
+hyser_same_dataset_session_shift,physionet_hyser,physionet_hyser,accepted_identity,34,34,34,0..33,,yes,same-dataset task-valid screen
+hyser_grabmyo_cross_dataset_supervised_transfer,physionet_hyser,physionet_grabmyo,fail_closed_unresolved,34,17,0,,no documented one-to-one control-intent mapping exposed by frozen package,no,"not evaluable, not zero transfer accuracy"
+grabmyo_hyser_cross_dataset_supervised_transfer,physionet_grabmyo,physionet_hyser,fail_closed_unresolved,17,34,0,,symmetric fail-closed gate: no documented one-to-one control-intent mapping exposed by frozen package,no,"not evaluable, not zero transfer accuracy"

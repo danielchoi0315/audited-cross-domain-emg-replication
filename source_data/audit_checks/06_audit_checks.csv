@@ -1,0 +1,8 @@
+check,display_name,status,value,notes
+subject_overlap_train_test,Subject overlap train-test,PASS,0,count
+forbidden_feature_tokens,Forbidden feature tokens,PASS,0,count
+permutation_sanity_checks,Permutation sanity checks,PASS,reported pass,see audit logs
+recompute_consistency_max_abs_diff,Recompute consistency,PASS,4.44e-16,max abs diff
+artifact_completeness,Artifact completeness,PASS,reported pass,bundle completeness
+checksum_verified_bundle,Artifact package hash check,PASS,reported pass,packaged artifact archives
+domain_acc_near_chance,Domain-ID near chance target,FAIL,0.1432,"|acc_end - chance|, target <= 0.05"
